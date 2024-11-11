@@ -1,0 +1,100 @@
+.btn {
+  padding: 11px 17px;
+  background-color: rgba(255, 208, 99, 1);
+  color: rgba(1, 58, 76, 1);
+  border: none;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 208, 99, 1);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(1, 58, 76, 1);
+    border: 1px solid rgba(255, 208, 99, 1);
+    color: rgba(255, 208, 99, 1);
+  }
+}
+
+.second__btn {
+  background-color: white;
+  color: rgba(52, 97, 112, 1);
+  margin-right: 48px;
+  border: 1px solid rgba(52, 97, 112, 1);
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background-color: rgba(255, 208, 99, 1);
+    color: rgba(1, 58, 76, 1);
+    border: 1px solid rgba(1, 58, 76, 1);
+  }
+}
+
+.info__btn {
+  background-color: rgba(1, 58, 76, 1);
+  color: white;
+  padding: 11px 17px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid rgba(1, 58, 76, 1);
+
+  &:hover {
+    background-color: rgba(242, 220, 228, 1);
+    color: rgba(1, 58, 76, 1);
+    border: 1px solid rgba(1, 58, 76, 1);
+  }
+}
+
+.colloborate__btn {
+  background-color: rgba(211, 232, 244, 1);
+  color: rgba(1, 58, 76, 1);
+  border: 1px solid rgba(1, 58, 76, 1);
+  padding: 11px 17px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background-color: rgba(52, 97, 112, 1);
+    border: 1px solid rgba(255, 208, 99, 1);
+    color: rgba(255, 208, 99, 1);
+  }
+}
+
+.seamless__btn {
+  padding: 14px 21px 16px 21px;
+  background-color: rgba(255, 208, 99, 1);
+  color: rgba(1, 58, 76, 1);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 208, 99, 1);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 18.56px;
+
+  &:hover {
+    background-color: white;
+    border: 1px solid rgba(1, 58, 76, 1);
+    color: rgba(1, 58, 76, 1);
+  }
+}
+
+.trick__btn {
+  padding: 14px 21px 16px 21px;
+  background-color: rgba(255, 208, 99, 1);
+  color: rgba(1, 58, 76, 1);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 208, 99, 1);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: -35px;
+
+  &:hover {
+    background-color: white;
+    border: 1px solid rgba(1, 58, 76, 1);
+    color: rgba(1, 58, 76, 1);
+  }
+}

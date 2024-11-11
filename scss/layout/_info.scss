@@ -1,0 +1,34 @@
+.info {
+  padding: 127px 0 583px 0;
+  background-image: url(../../assets/image/info.bg.png);
+
+  &__title {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: center;
+    color: rgba(1, 58, 76, 1);
+    margin-bottom: 149px;
+  }
+
+  &__card {
+    text-align: left;
+    padding-left: 96px;
+    margin-left: 528px;
+  }
+
+  &__card-title {
+    color: rgba(1, 58, 76, 1);
+    font-size: 48px;
+    font-weight: 700;
+    padding: 15px 0 34px 0;
+  }
+
+  &__text {
+    color: rgba(1, 58, 76, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 17px;
+  }
+}

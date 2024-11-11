@@ -1,0 +1,15 @@
+.footer-end {
+  background-color: rgba(1, 58, 76, 1);
+  padding-bottom: 64px;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    color: rgba(153, 176, 183, 1);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 17px 0 9px 0;
+  }
+}

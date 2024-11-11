@@ -1,0 +1,79 @@
+.oneflow {
+  padding-bottom: 16px;
+  margin-top: 255.56px;
+  margin-bottom: 128px;
+
+  &__title {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(1, 58, 76, 1);
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &__card {
+    width: 576px;
+    margin-top: 49px;
+  }
+
+  &__img {
+    margin-right: 16px;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__img-cake {
+    margin-left: 12px;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(1, 58, 76, 1);
+    text-align: center;
+    margin: 18px 0 19px 0;
+  }
+
+  &__desc {
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 40px;
+    color: rgba(1, 58, 76, 1);
+    text-align: center;
+  }
+
+  &__button {
+    text-align: center;
+  }
+
+  &__btn {
+    padding: 14px 21px 16px 21px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgba(255, 208, 99, 1);
+    border: 1px solid rgba(255, 208, 99, 1);
+    transition: 0.3s ease-in-out;
+    color: rgba(1, 58, 76, 1);
+    border-radius: 4px;
+    margin-top: 21.73px;
+    margin-bottom: 16px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: white;
+      color: rgba(1, 58, 76, 1);
+      border: 1px solid rgba(1, 58, 76, 1);
+    }
+  }
+}

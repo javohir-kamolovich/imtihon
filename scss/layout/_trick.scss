@@ -1,0 +1,198 @@
+.trick {
+  &__text {
+    padding-bottom: 26.56px;
+    color: rgba(1, 58, 76, 1);
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(242, 220, 228, 1);
+  }
+
+  &__wrapper2 {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  &__sub {
+    background-color: rgba(183, 61, 139, 1);
+    color: white;
+    padding: 4px 8px 6px 8px;
+    margin-left: 32px;
+  }
+
+  &__card {
+    color: rgba(1, 58, 76, 1);
+    margin-left: 32px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 54px;
+    margin-top: 63px;
+  }
+
+  &__guide-page {
+    padding-bottom: 24px;
+  }
+
+  &__second-card {
+    width: 368px;
+    background-color: rgba(1, 58, 76, 1);
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 8px 8px;
+    transition: 0.6s ease-in-out;
+
+    &:hover {
+      border-radius: 8px;
+    }
+  }
+
+  &__img {
+    margin-bottom: 25.45px;
+  }
+
+  &__tipe {
+    font-size: 11px;
+    font-weight: 400;
+    padding: 4px 8px 6px 8px;
+    background-color: rgba(242, 220, 228, 1);
+    color: rgba(1, 58, 76, 1);
+    margin-left: 24px;
+
+    &__second {
+      background-color: rgba(183, 61, 139, 1);
+      color: white;
+      padding: 4px 8px 6px 8px;
+      margin-left: 24px;
+    }
+  }
+
+  &__info {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 18px;
+    margin-bottom: 69.55px;
+    margin-left: 24px;
+  }
+
+  &__second-info {
+    color: rgba(1, 58, 76, 1);
+    margin-top: 18px;
+    margin-left: 24px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 37.55px;
+  }
+
+  &__second-span {
+    color: rgba(1, 58, 76, 1);
+    margin-left: 24px;
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  &__span {
+    font-size: 10px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 24px;
+  }
+
+  &__hover {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    background: rgba(15, 89, 135, 1);
+    height: 100%;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    flex-direction: column;
+    padding-top: 24.44px;
+
+    &__text {
+      padding: 4px 8px 6px 8px;
+      color: white;
+      font-family: Work Sans;
+      font-size: 11px;
+      font-weight: 400;
+      background-color: rgba(24, 123, 183, 1);
+    }
+
+    &__title {
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 48px;
+      color: white;
+      margin-top: 107px;
+    }
+
+    &__btn {
+      margin-top: 127px;
+      padding: 11px 17px;
+      background: rgba(15, 89, 135, 1);
+      color: white;
+      border: 1px solid;
+      border-radius: 4px;
+      transition: 0.3s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        background-color: white;
+        color: rgba(15, 89, 135, 1);
+        border: 1px solid rgba(15, 89, 135, 1);
+      }
+    }
+  }
+
+  &__third-card {
+    width: 368px;
+    background-color: rgba(242, 220, 228, 1);
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 8px 8px;
+    transition: 0.6s ease-in-out;
+
+    &:hover {
+      border-radius: 8px;
+    }
+  }
+
+  &__second-hover {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    background: rgba(15, 89, 135, 1);
+    height: 100%;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    flex-direction: column;
+    padding-top: 24.44px;
+  }
+
+  &__third-card:hover .trick__hover {
+    top: 0;
+    border-radius: 8px;
+  }
+
+  &__second-card:hover .trick__hover {
+    top: 0;
+    border-radius: 8px;
+  }
+}

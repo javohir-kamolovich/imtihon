@@ -1,0 +1,21 @@
+.eyes {
+  padding: 128px 0;
+  background-image: url(../../assets/image/eyes.bg.png);
+
+  &__card {
+    padding: 187px 0 189px 0;
+  }
+
+  &__title {
+    font-size: 73px;
+    font-weight: 700;
+    color: rgba(242, 220, 228, 1);
+  }
+
+  &__text {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 31px 0 25px 0;
+  }
+}

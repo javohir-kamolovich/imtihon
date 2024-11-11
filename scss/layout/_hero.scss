@@ -1,0 +1,59 @@
+.hero {
+  background: url(../../assets/nav.hero.png);
+  width: 1440;
+  padding-top: 216px;
+  padding-bottom: 296px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 76px;
+    font-weight: 400;
+    color: rgba(1, 58, 76, 1);
+  }
+
+  &__text {
+    color: rgba(1, 58, 76, 1);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 31px;
+    margin-bottom: 25px;
+  }
+
+  &__btn {
+    background-color: rgba(1, 58, 76, 1);
+    border: 1px solid rgba(1, 58, 76, 1);
+    color: white;
+    padding: 15px 21px;
+    transition: 0.3s ease-in-out;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: white;
+      border: 1px solid rgba(1, 58, 76, 1);
+      color: rgba(1, 58, 76, 1);
+    }
+  }
+
+  &__free {
+    padding: 15px 21px;
+    background-color: rgba(255, 208, 99, 1);
+    columns: rgba(1, 58, 76, 1);
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 208, 99, 1);
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      background-color: white;
+      border: 1px solid rgba(1, 58, 76, 1);
+      color: rgba(1, 58, 76, 1);
+    }
+  }
+}
